@@ -1,0 +1,609 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {font-family: "Mulish", sans-serif;
+	line-height: 1;
+	min-width: 1920px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Сброс силей */
+
+
+
+html {
+    scroll-behavior: smooth;
+	min-width: 1920px;
+}
+*{
+	font-family: 'Mulish', sans-serif;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+header{
+	font-size: 16px;
+
+	background-image: url('./img/bg1.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #fff;
+	padding: 2em 5em;
+}
+b {
+	font-weight: bold;
+}
+.header-nav {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+}
+.header-logo {
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+.logo1 {
+	width: 5em;
+}
+.logo2 {
+	height: 1em;
+}
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3em;
+	font-size: 1.5em;
+}
+nav ul a{
+	text-decoration: none;
+	color: inherit;
+	padding: 0.25em 0.8em;
+	border: none;
+	border-radius: 4em;
+}
+
+nav ul li a:hover {
+	background-color: #FFB1C8;
+	color: #280B20;
+	transition: all 0.3s ease-in-out;
+  }
+
+header span{
+	font-size: 1.5em;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	right: 5em;
+	top: 15em;
+	gap: 1em;
+	color: #fff;
+}
+.dost{
+	display: flex;
+	flex-direction: column;
+	margin: 30em 0 10em 0em;
+	gap: 1em;
+}
+.dost h1{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 1.2em;
+}
+.dost h2{
+	font-size: 1.5em;
+}
+
+
+.services{
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	font-size: 16px;
+	background-color: #fff;
+	padding: 6em 5em 10em 5em;
+}
+.services h1{
+	color: #F380A1;
+	font-size: 2.1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.services-column{
+	display:flex;
+	justify-content: space-between;
+	gap: 10em;
+}
+.service-description{
+	display: flex;
+	align-items: center;
+	gap: 1em;
+}
+.service-description span{
+	color: #F380A1;
+	font-weight: 600;
+	font-size: 5em;
+}
+.service-description p{
+	font-size: 1.25em;
+	color: #280B20;
+}
+
+
+
+.contact {
+	position: relative;
+	font-size: 16px;
+	background-image: url('./img/bg2.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	color: #fff;
+	padding: 2em 5em;
+  }
+  .contact span {
+	font-size: 1.5em;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	right: 3em;
+	top: 8em;
+	gap: 1em;
+	width: 24.5em;
+	color: #fff;
+  }
+  
+  .form-container {
+	padding: 30em 0 5em 0;
+<<<<<<< HEAD
+	padding: 30em 0 10em 0;
+=======
+	padding: 30em 0 5em 0;
+>>>>>>> 145b9eb (adaptive)
+
+	
+  }
+  
+  .form-container h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.2em;
+  }
+  
+  .form-card {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 1.5em;
+	background-color: #fff;
+	padding: 1em 3em;
+	margin-top: 3em;
+	width: 95%;
+  }
+  .form-card {
+	box-shadow: 4px 4px 19px #C241667D;
+  }
+  
+  form {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	gap: 2em;
+	margin-top: 0.5em;
+  }
+  
+  label {
+	color: #7e868e;
+  }
+  form input {
+	font-size: 1.5em;
+	background-color: #fde4ea;
+	border: none;
+	border-radius: .6em;
+	padding: 1em 2em;
+	margin-top: 1em;
+  }
+  form button {
+	width: 15em;
+    font-size: 1.5em;
+    background-color: #F380A1;
+    color: #fff;
+    border: none;
+    border-radius: .6em;
+    padding: 1em 3em;
+    margin-top: 1em;
+}
+  .check {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1em;
+  }
+
+  
+  
+.primes{
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	font-size: 16px;
+	background-color: #fff;
+	padding: 6em 5em 2em 5em;
+}
+.primes h1{
+	color: #F380A1;
+	font-size: 2.1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.primes-column{
+	display:flex;
+	justify-content: space-between;
+	gap: 3em;
+	margin: 2em 0 0 0;
+	padding: 0 3em;
+}
+.primes-description{
+	display: flex;
+	align-items: center;
+	gap: 1em;
+	width: 22em;
+}
+
+
+.items{
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	font-size: 16px;
+	background-color: #fff;
+	padding: 5em 5em 5em 5em;
+}
+.items h1{
+	color: #F380A1;
+	font-size: 2.1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.items-slider{
+	display: flex;
+	justify-content: space-between;
+}
+.item-card{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	border: 4px solid #FDE4EA;
+	border-radius: 1.5em;
+	width: 20em;
+}
+.item-card h2, span{
+	font-weight: 500;
+	color: #280B20;
+}
+.item-card label{
+	text-align: center;
+}
+.item-card img{
+	background-color:#FDE4EA;
+	padding: 1em;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+.item-description{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1em;
+	padding: 0em 2em 1.5em 2em;
+}
+
+
+.location{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0em;
+	font-size: 16px;
+	background-color: #fff;
+	padding: 0em 5em 0em 5em;
+	margin: 0 auto 5em auto;
+}
+
+.left-column{
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	order: 0;
+}
+
+.left-column h1{
+	color: #F380A1;
+	font-size: 2.1em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.left-column h2{
+	font-size: 1.5em;
+	width: 25em;
+	line-height: 1.2em;
+}
+
+.right-column img{
+	height: 40em;
+	border-radius: 32px;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FDE4EA;
+	color: #280B20;
+	padding: 5em 5em;
+	margin: 0 auto;
+}
+.footer-logo img{
+	height: 1.5em;
+}
+.footer-ul{
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+
+footer h2{
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: 400;
+}
+
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 1em 2em; /* Уменьшаем внутренние отступы */
+    }
+
+    .header-nav {
+        flex-direction: column; /* Переключаем расположение элементов на вертикальное */
+        align-items: flex-start; /* Выравниваем элементы слева */
+    }
+
+    .header-logo {
+        margin-bottom: 1em; /* Добавляем отступ снизу */
+    }
+
+    .logo1 {
+        width: 3em; /* Уменьшаем ширину лого */
+    }
+
+    .logo2 {
+        height: 0.8em; /* Уменьшаем высоту лого */
+    }
+
+    nav ul {
+        font-size: 1.3em; /* Уменьшаем размер шрифта в меню */
+        gap: 1em; /* Уменьшаем расстояние между пунктами меню */
+    }
+
+    .dost {
+        margin: 3em 0; /* Уменьшаем внешний отступ */
+    }
+
+    .dost h1 {
+        font-size: 2em; /* Уменьшаем размер заголовка */
+    }
+
+    .dost h2 {
+        font-size: 1.3em; /* Уменьшаем размер подзаголовка */
+    }
+
+
+	.services {
+        padding: 3em 2em 6em 2em; /* Уменьшаем внутренние отступы */
+    }
+
+    .services h1 {
+        font-size: 1.8em; /* Уменьшаем размер заголовка */
+    }
+
+    .services-column {
+        flex-direction: column; /* Переключаем на вертикальное расположение */
+        gap: 2em; /* Уменьшаем расстояние между колонками */
+    }
+
+    .service-description {
+        flex-direction: column; /* Переключаем на вертикальное расположение элементов */
+        gap: 1em; /* Уменьшаем расстояние между элементами */
+    }
+
+    .service-description span {
+        font-size: 3em; /* Уменьшаем размер значка */
+    }
+
+    .service-description p {
+        font-size: 1.1em; /* Уменьшаем размер текста описания */
+    }
+	.primes {
+        padding: 3em 2em 1em 2em; /* Уменьшаем внутренние отступы */
+    }
+
+    .primes h1 {
+        font-size: 1.8em; /* Уменьшаем размер заголовка */
+    }
+
+    .primes-column {
+        flex-direction: column; /* Переключаем на вертикальное расположение */
+        gap: 2em; /* Уменьшаем расстояние между описаниями */
+        padding: 0; /* Убираем внутренний отступ */
+    }
+
+    .primes-description {
+        width: auto; /* Убираем фиксированную ширину элементов */
+        padding: 1em; /* Добавляем внутренний отступ для каждого описания */
+    }
+	.contact {
+        height: auto; /* Убираем фиксированную высоту */
+        padding: 1em; /* Уменьшаем внутренние отступы */
+        background-size: contain; /* Изменяем размер фона для лучшей адаптации */
+    }
+
+    .contact span {
+        font-size: 1.2em; /* Уменьшаем размер текста */
+        right: 1em; /* Сдвигаем к тексту */
+        top: 2em; /* Перемещаем блок вверх */
+        width: 90%; /* Увеличиваем ширину блока */
+    }
+
+    .form-container {
+        bottom: 1em; /* Перемещаем форму ближе к низу */
+    }
+
+    .form-card {
+        padding: 1em; /* Уменьшаем внутренний отступ формы */
+        margin-top: 1em; /* Уменьшаем отступ сверху */
+        width: 95%; /* Увеличиваем ширину формы */
+    }
+
+    form {
+        flex-direction: column; /* Перестраиваем элементы формы по вертикали */
+        align-items: center; /* Центрируем элементы формы */
+    }
+
+    label {
+        font-size: 1em; /* Уменьшаем размер текста метки */
+    }
+
+    form input {
+        font-size: 1.2em; /* Уменьшаем размер текстовых полей */
+    }
+
+    form button {
+        width: 100%; /* Растягиваем кнопку на всю ширину */
+        font-size: 1.2em; /* Уменьшаем размер кнопки */
+        margin-top: 1em; /* Увеличиваем отступ сверху */
+    }
+
+    .check {
+        margin-top: 1em; /* Увеличиваем отступ сверху для блока с чекбоксом */
+    }
+	.items {
+        padding: 3em 2em; /* Уменьшаем внутренние отступы */
+    }
+
+    .items h1 {
+        font-size: 1.8em; /* Уменьшаем размер заголовка */
+    }
+
+    .items-slider {
+        flex-direction: column; /* Перестраиваем слайдер по вертикали */
+        gap: 2em; /* Добавляем отступ между карточками */
+        align-items: center; /* Центрируем содержимое слайдера */
+    }
+
+    .item-card {
+        width: 100%; /* Занимаем всю ширину */
+        border: none; /* Убираем границы */
+        border-radius: 1em; /* Уменьшаем радиус закругления углов */
+        padding: 2em; /* Увеличиваем внутренний отступ */
+    }
+
+    .item-card img {
+        border-radius: 1em; /* Уменьшаем радиус закругления углов изображения */
+    }
+
+    .item-description {
+        padding: 1em 2em; /* Уменьшаем внутренний отступ описания товара */
+    }
+
+    .item-card h2, .item-card span {
+        font-weight: 500;
+        text-align: center; /* Центрируем текст заголовка и цены */
+    }
+	.location {
+        flex-direction: column; /* Меняем направление расположения блоков на вертикальное */
+        padding: 2em 1em; /* Уменьшаем внутренние отступы */
+        margin-bottom: 3em; /* Устанавливаем отступ снизу */
+    }
+
+    .left-column {
+        order: 1; /* Изменяем порядок появления левой колонки */
+        text-align: center; /* Выравниваем текст по центру */
+    }
+
+    .left-column h1 {
+        font-size: 1.8em; /* Уменьшаем размер заголовка */
+    }
+
+    .left-column h2 {
+        font-size: 1.2em; /* Уменьшаем размер текста */
+        width: auto; /* Снимаем фиксированную ширину */
+        line-height: 1.5em; /* Увеличиваем межстрочный интервал */
+    }
+
+    .right-column img {
+        width: 100%; /* Занимаем всю ширину */
+        height: auto; /* Делаем изображение автоматически подстраиваемым по высоте */
+        border-radius: 16px; /* Уменьшаем радиус закругления углов */
+    }
+	footer {
+        flex-direction: column; /* Изменяем расположение элементов на вертикальное */
+        padding: 2em; /* Уменьшаем внутренние отступы */
+        text-align: center; /* Центрируем текст */
+    }
+
+    .footer-logo img {
+        height: 1em; /* Уменьшаем размер логотипа */
+    }
+
+    .footer-ul {
+        flex-direction: row; /* Изменяем направление элементов списка на горизонтальное */
+        gap: 1em; /* Добавляем отступ между пунктами списка */
+    }
+
+    footer h2 {
+        font-size: 1em; /* Уменьшаем размер заголовков */
+        line-height: 1.2em; /* Уменьшаем межстрочный интервал */
+        font-weight: 400;
+    }
+}
+
